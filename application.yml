@@ -1,6 +1,7 @@
-global:
-  params:
-    x: 23
+spring:
+ docker:
+  compose:
+    enabled: false
 
 management:
   endpoints:
