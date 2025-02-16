@@ -1,3 +1,6 @@
-customer:
-  params:
-    x: 23
+spring:
+  application:
+    name: gateway-service
+
+server:
+  port: 9999
