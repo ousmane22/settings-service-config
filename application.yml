@@ -11,8 +11,8 @@ management:
   tracing:
     sampling:
       probability: 1.0
-    zipkin:
-      endpoint: http://my-tempo:9411/api/v2/spans
+  zipkin:
+    endpoint: http://my-tempo:9411/api/v2/spans
 
   metrics:
     export:
