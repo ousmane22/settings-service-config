@@ -6,8 +6,8 @@ spring:
   h2:
     console:
       enabled: true
-  settings:
-    web-allow-others: true
+      settings:
+        web-allow-others: true
 
 server:
   port: 8081
