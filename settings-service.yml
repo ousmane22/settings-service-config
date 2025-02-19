@@ -7,4 +7,5 @@ spring:
     console:
       enabled: true
 
-
+server:
+  port: 8081
