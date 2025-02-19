@@ -13,8 +13,8 @@ server:
   port: 8081
 
 security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://keycloak_web:8080/realms/settings-app
-          jwk-set-uri: http://keycloak_web:8080/realms/settings-app/protocol/openid-connect/certs
+  oauth2:
+    resourceserver:
+      jwt:
+        issuer-uri: http://keycloak_web:8080/realms/settings-app
+        jwk-set-uri: http://keycloak_web:8080/realms/settings-app/protocol/openid-connect/certs
